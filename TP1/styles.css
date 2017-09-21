@@ -1,0 +1,28 @@
+nav {
+	background-color: #ecf0f1;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+header a, a:active {
+	color:#1abc9c;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+header a:hover{
+	color:#e67e22;
+}
+
+
+
