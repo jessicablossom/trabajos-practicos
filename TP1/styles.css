@@ -1,8 +1,10 @@
 nav {
-	background-color: #ecf0f1;
 	height: 60px;
-	position: fixed;
 	width: 100%;
+	background-color: #BDD5EA;
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
 }
 
 ul li {
@@ -11,36 +13,57 @@ ul li {
 }
 
 ul {
+	padding-right: 25px;
 	list-style-type: none;
 }
 
 header a, a:active {
-	color:#1abc9c;
+	color: #577399;
 	list-style-type: none;
 	text-decoration: none;
 }
 
 header a:hover{
-	color:#e67e22;
+	color:#FE5F55;
 }
 
 p {
 	text-align: justify;
 }
+
+#home {
+	background-color: #F7F7FF;
+	color: #577399;
+}
+
+#aboutme {
+	background-color: #BDD5EA;
+	color: #577399;
+}
+
+#contact {
+	color: #F7F7FF;
+	background-color: #495867;
+}
+#contact a, a:active {
+	color: #BDD5EA;
+}
+#contact a:hover {
+	color: #F7F7FF;
+}
+
 #home, #aboutme, #contact {
 	text-align: center;
-	padding-top: 100px;
-	margin-left: 200px;
-	margin-right: 200px;
+	padding: 100px 200px;
 }
 
 #aboutme img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 20px;
 }
 
 .fa-twitter, .fa-github {
 	font-size: 45px;
-	color:#ecf0f1;
 }
