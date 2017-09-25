@@ -1,7 +1,7 @@
 nav {
 	height: 60px;
 	width: 100%;
-	background-color: #BDD5EA;
+	background-color: #BF5476;
 	display: flex;
 	justify-content: flex-end;
 	position: fixed;
@@ -18,17 +18,19 @@ ul {
 }
 
 header a, a:active {
-	color: #577399;
+	color: #F7F7FF;
 	list-style-type: none;
 	text-decoration: none;
 }
 
 header a:hover{
-	color:#FE5F55;
+	color:#BDD5EA;
 }
 
 p {
 	text-align: justify;
+	padding-right: 75px;
+	padding-left: 75px;
 }
 
 #home {
@@ -44,6 +46,7 @@ p {
 #contact {
 	color: #F7F7FF;
 	background-color: #495867;
+	/*background-image:url("https://i.pinimg.com/564x/08/66/2b/08662ba34fdd893b9d497a5dd5c5da04.jpg");*/
 }
 #contact a, a:active {
 	color: #BDD5EA;
@@ -54,7 +57,7 @@ p {
 
 #home, #aboutme, #contact {
 	text-align: center;
-	padding: 100px 200px;
+	padding: 75px 210px;
 }
 
 #aboutme img {
