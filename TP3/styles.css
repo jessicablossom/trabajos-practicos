@@ -1,0 +1,80 @@
+nav {
+	height: 60px;
+	width: 100%;
+	background-color: #BF5476;
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+ul {
+	padding-right: 25px;
+	list-style-type: none;
+}
+
+header a, a:active {
+	color: #F7F7FF;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+header a:hover{
+	color:#BDD5EA;
+}
+
+p {
+  	font-family: 'Muli', sans-serif;
+	text-align: justify;
+	padding-right: 75px;
+	padding-left: 75px;
+}
+
+footer {
+	padding: 10px;
+}
+small {
+	text-align: right;
+}
+
+#home {
+	background-color: #F7F7FF;
+	color: #577399;
+}
+
+#aboutme {
+	background-color: #BDD5EA;
+	color: #577399;
+}
+
+#contact {
+	color: #F7F7FF;
+	background-color: #495867;
+	/*background-image:url("https://i.pinimg.com/564x/08/66/2b/08662ba34fdd893b9d497a5dd5c5da04.jpg");*/
+}
+#contact a, a:active {
+	color: #BDD5EA;
+}
+#contact a:hover {
+	color: #F7F7FF;
+}
+
+#home, #aboutme, #contact {
+	text-align: center;
+	padding: 75px 210px;
+}
+
+#aboutme img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.fa-twitter, .fa-github {
+	font-size: 45px;
+}
