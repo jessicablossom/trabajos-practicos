@@ -59,6 +59,7 @@ small {
 }
 #contact a, a:active {
 	color: #BDD5EA;
+	transition: color 2s;
 }
 #contact a:hover {
 	color: #F7F7FF;
