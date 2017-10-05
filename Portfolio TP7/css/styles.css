@@ -3,6 +3,7 @@ nav {
     width: 100%;
     background-color: #BF5476;
     position: fixed;
+    z-index: 9999;
 }
 
 ul li {
@@ -44,7 +45,7 @@ small {
 	text-align: right;
 }
 
-img.img-circle {
+.img-circle {
 	border-radius: 50%;
 	height: 150px;
 	margin: 15px;
@@ -54,11 +55,6 @@ img.img-circle {
 	display: inline-flex;
 	justify-content: center;
 }
-.container div img{
-	height: 200px;
-	transition: all .2s ease-in-out
-}
-
 
 #home, #portfolio {
 	background-color: #F7F7FF;
@@ -69,8 +65,14 @@ img.img-circle {
 	background-color: #BDD5EA;
 	color: #3E456C;
 }
+
+#portfolio .container div img{
+	height: 200px;
+	transition: all 1s ease-in-out
+}
 #portfolio .container div img:hover {
 	transform: scale(2, 2);
+	border: solid #95a5a6 1px;
 }
 #contact {
 	color: #F7F7FF;
