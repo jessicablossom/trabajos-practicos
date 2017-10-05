@@ -21,11 +21,11 @@ nav a, a:active {
 	color: #F7F7FF;
 	list-style-type: none;
 	text-decoration: none;
-	transition: color 2s;
+	transition: color 1s;
 }
 
 nav a:hover{
-	color:#577399;
+	color:#3E456C;
 }
 h1 {
 	font-size: 45px;
@@ -46,55 +46,54 @@ small {
 
 img.img-circle {
 	border-radius: 50%;
-	height: 175px;
-	padding: 20px;
-	margin: auto;
+	height: 150px;
+	margin: 15px;
 }
 
 .container div {	  
 	display: inline-flex;
-	align-items: center;
-	margin: 10px;
+	justify-content: center;
+}
+.container div img{
+	height: 200px;
+	transition: all .2s ease-in-out
 }
 
 
-#home {
+#home, #portfolio {
 	background-color: #F7F7FF;
-	color: #577399;
+	color: #3E456C;
 }
 
 #aboutme {
 	background-color: #BDD5EA;
-	color: #577399;
+	color: #3E456C;
 }
-
-#portfolio {
-	background-color: #F7F7FF;
-	color: #577399;
+#portfolio .container div img:hover {
+	transform: scale(2, 2);
 }
-
 #contact {
 	color: #F7F7FF;
-	background-color: #495867;
+	background-color: #3E456C;
 	text-align: center;
 }
 #contact a, a:active {
 	text-decoration: none;
 	color: #BDD5EA;
-	transition: color 3s;
+	transition: color 1s;
 }
 #contact a:hover {
 	color: #BF5476;
 }
 
-#home, #aboutme, #contact, #portfolio {
+#home, #aboutme, #portfolio, #contact {
 	text-align: center;
 	flex-grow: initial;
-	padding-top: 75px;
+	padding-top: 100px;
 	padding-bottom: 125px;
 }
 
 .fa-twitter, .fa-github {
-	font-size: 65px;
+	font-size: 72px;
 }
 
