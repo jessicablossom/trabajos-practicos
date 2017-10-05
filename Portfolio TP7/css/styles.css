@@ -1,0 +1,100 @@
+nav {
+	height: 60px;
+    width: 100%;
+    background-color: #BF5476;
+    position: fixed;
+}
+
+ul li {
+	padding: 10px;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
+	padding-right: 25px;
+}
+
+
+nav a, a:active {
+	color: #F7F7FF;
+	list-style-type: none;
+	text-decoration: none;
+	transition: color 2s;
+}
+
+nav a:hover{
+	color:#577399;
+}
+h1 {
+	font-size: 45px;
+}
+p {
+  	font-family: 'Muli', sans-serif;
+	text-align: justify;
+	padding-right: 75px;
+	padding-left: 75px;
+}
+
+footer {
+	padding: 10px;
+}
+small {
+	text-align: right;
+}
+
+img.img-circle {
+	border-radius: 50%;
+	height: 175px;
+	padding: 20px;
+	margin: auto;
+}
+
+.container div {	  
+	display: inline-flex;
+	align-items: center;
+	margin: 10px;
+}
+
+
+#home {
+	background-color: #F7F7FF;
+	color: #577399;
+}
+
+#aboutme {
+	background-color: #BDD5EA;
+	color: #577399;
+}
+
+#portfolio {
+	background-color: #F7F7FF;
+	color: #577399;
+}
+
+#contact {
+	color: #F7F7FF;
+	background-color: #495867;
+	text-align: center;
+}
+#contact a, a:active {
+	text-decoration: none;
+	color: #BDD5EA;
+	transition: color 3s;
+}
+#contact a:hover {
+	color: #BF5476;
+}
+
+#home, #aboutme, #contact, #portfolio {
+	text-align: center;
+	flex-grow: initial;
+	padding-top: 75px;
+	padding-bottom: 125px;
+}
+
+.fa-twitter, .fa-github {
+	font-size: 65px;
+}
+
